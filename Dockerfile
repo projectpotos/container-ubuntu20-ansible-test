@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     systemd \
     init \
     python3 \
-    ca-certificates \
+    python3-certifi \
     && \
     apt-get clean
 
