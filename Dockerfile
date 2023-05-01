@@ -9,7 +9,7 @@ LABEL org.opencontainers.image.base.name="docker.io/_/ubuntu:latest"
 # See also https://systemd.io/CONTAINER_INTERFACE
 ENV container docker
 
-# Install systemd and ca-certificates
+# Install systemd and python3-certifi
 RUN apt-get update && apt-get install -y --no-install-recommends \
     systemd \
     init \
